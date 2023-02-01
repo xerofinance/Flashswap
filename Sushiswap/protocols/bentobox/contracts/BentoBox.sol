@@ -13,7 +13,7 @@
 // Copyright (c) 2021 BoringCrypto - All rights reserved
 // Twitter: @Boring_Crypto
 
-pragma solidity 0.6.12;
+pragma solidity 0.5.17;
 pragma experimental ABIEncoderV2;
 
 /*
