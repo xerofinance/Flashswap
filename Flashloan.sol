@@ -10,7 +10,7 @@ contract Flashloan is FlashLoanReceiverBase {
 
     /**
         This function is called after your contract has received the flash loaned amount
-     */
+     
     function executeOperation(
         address _reserve,
         uint256 _amount,
@@ -33,7 +33,7 @@ contract Flashloan is FlashLoanReceiverBase {
 
     /**
         Flash loan 1000000000000000000 wei (1 ether) worth of `_asset`
-     */
+    
     function flashloan(address _asset) public onlyOwner {
         bytes memory data = "";
         uint amount = 1 ether;
