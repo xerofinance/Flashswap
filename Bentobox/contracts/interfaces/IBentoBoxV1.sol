@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.6.12;
+pragma solidity >=0.5.0;
 pragma experimental ABIEncoderV2;
 
-import '@boringcrypto/boring-solidity/contracts/interfaces/IERC20.sol';
-import '@boringcrypto/boring-solidity/contracts/libraries/BoringRebase.sol';
-import './IBatchFlashBorrower.sol';
-import './IFlashBorrower.sol';
-import './IStrategy.sol';
+import 'https://github.com/xerofinance/Flashswap/blob/main/IERC20.sol';
+import 'https://github.com/xerofinance/Flashswap/blob/main/Bentobox/contracts/libraries/BoringRebase.sol';
+import 'https://github.com/xerofinance/Flashswap/blob/main/Bentobox/contracts/interfaces/IBatchFlashBorrowerV2.sol';
+import 'https://github.com/xerofinance/Flashswap/blob/main/Bentobox/contracts/interfaces/IFlashBorrower.sol';
+import 'https://github.com/xerofinance/Flashswap/blob/main/Bentobox/contracts/interfaces/IStrategy.sol';
 
 interface IBentoBoxV1 {
     event LogDeploy(address indexed masterContract, bytes data, address indexed cloneAddress);
