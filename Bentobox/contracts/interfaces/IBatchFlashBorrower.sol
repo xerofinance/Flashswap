@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0;
-import '@boringcrypto/boring-solidity/contracts/interfaces/IERC20.sol';
+import 'https://github.com/xerofinance/Flashswap/blob/main/Sushiswap/interfaces/IERC20.sol';
 
 interface IBatchFlashBorrower {
     function onBatchFlashLoan(
