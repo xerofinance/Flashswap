@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity >=0.5.0;
 
 interface IERC20 {
     // transfer and tranferFrom have been removed, because they don't work on all tokens (some aren't ERC20 complaint).
