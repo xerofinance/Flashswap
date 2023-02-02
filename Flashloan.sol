@@ -1,5 +1,5 @@
-pragma solidity ^0.6.6;
-
+pragma solidity ^0.5.0;
+/*
 import "./aave/FlashLoanReceiverBase.sol";
 import "./aave/ILendingPoolAddressesProvider.sol";
 import "./aave/ILendingPool.sol";
@@ -42,3 +42,4 @@ contract Flashloan is FlashLoanReceiverBase {
         lendingPool.flashLoan(address(this), _asset, amount, data);
     }
 }
+*/
