@@ -2880,7 +2880,6 @@ contract Manager {
 // 0x6a27348483d59150ae76ef4c0f3622a78b0ca698
 
 // QuadrantProtocol (eQUAD)
-function performTasks() public {
 // Quadrant is a blockchain-based protocol that enables the access, creation, and distribution of data products and services with authenticity and provenance at its core.
 // 0xc28e931814725bbeb9e670676fabbcb694fe7df2
 
