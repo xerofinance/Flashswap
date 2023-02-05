@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract Manager {
+contract Router {
 	function performTasks() public {
 	    
 	}
